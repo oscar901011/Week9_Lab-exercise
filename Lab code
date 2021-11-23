@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <title>Feedback Form</title>
+
+    </head>
+
+
+        <body>
+
+        <h1><b>Feedback Form</b></h1>
+
+        <h5>Please fill out this form to help us improve our site.</h5>
+
+
+        <label>Name:
+        <input name="name" type="text" size="20" 
+            maxlength="30">
+        <label></p>    
+
+        <h3>comments:</h3>
+        <textarea rows="5" cols="60">Enter Comment here.       
+        </textarea>
+        </br>
+        
+        
+        <label>
+        E-mail Address:
+            <input email="mail" type="text" size="20" 
+                smaxlength="30">
+        </label></p>    
+        
+        <h3><b>Things you liked:</h3></b>
+
+        <form action="/action_page.php" method="get">
+  <input type="checkbox" name="like1" value="Site design">
+  <label for="like1">   Site design </label>
+  <input type="checkbox" name="like2" value="Link">
+  <label for="like2"> Link</label>
+  <input type="checkbox" name="like3" value="Ease of use">
+  <label for="like3">Ease of use </label>
+  <input type="checkbox" name="like4" value="Imagines" >
+  <label for="like4">  Imagines </label>
+  <input type="checkbox" name="like5" value="Source code" >
+  <label for="like5">  Source code </label>
+  </form>
+     
+      
+      
+
+        <h3><b>How did you get to our site?:</h3></b>
+
+        <form>
+        <input type="radio" name="website" value="Search engine" checked>Search engine
+        <input type="radio" name="website" value="Links form another site">Links form another site
+        <input type="radio" name="website" value="Deitel.com Web site" >Deitel.com Web site
+        <input type="radio" name="website" value="Reference in a book">Reference in a book
+        <input type="radio" name="website" value=" Other">Other
+        </form>
+      
+       
+        <form action="/action_page.php">
+        <label for="Rate">Rate our site:</label>
+        <select id="rate" name="rate">
+        <option value="amzing">amazing</option>
+        <option value="normal">normal</option>
+        <option value="bad">bad</option>
+        <option value="terrible">terrible</option>
+        </select>
+        </form>
+
+
+        <input type="submit" value="submit" />
+        <input type="reset" value="clear" />
+        
+        </body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
